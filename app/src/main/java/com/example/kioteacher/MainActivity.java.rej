@@ -1,0 +1,11 @@
+diff a/app/src/main/java/com/example/kioteacher/MainActivity.java b/app/src/main/java/com/example/kioteacher/MainActivity.java	(rejected hunks)
+@@ -11,4 +11,8 @@
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_main);
+     }
++    void temp(){
++        //0824
++    }
++
+ }
+\ No newline at end of file

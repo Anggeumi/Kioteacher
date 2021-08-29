@@ -11,8 +11,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    void temp(){
-        //0824
-    }
+
+
+    /*
+    Button Button_add = findViewById(R.id.qrImageButton;
+        Button_add.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(getApplicationContext(),QrActivity.class);
+            startActivity(intent);
+        }
+    });
+    */
+
 
 }
