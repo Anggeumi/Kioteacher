@@ -43,7 +43,7 @@ public class CaptureFormActivity extends CaptureActivity {
         ImageView imageView = new ImageView(this);
         imageView.setScaleType(ImageView.ScaleType.MATRIX);
 
-        imageView.setImageDrawable(getResources().getDrawable(R.drawable.mc));
+        imageView.setImageDrawable(getResources().getDrawable(R.drawable.mc_image));
 
         Display display = getWindowManager().getDefaultDisplay();
 

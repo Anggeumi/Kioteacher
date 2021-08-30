@@ -6,15 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".home.MainActivity">
 
-    <Button
-        android:id="@+id/button1"
+    <ImageButton
+        android:id="@+id/qrImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:background="@android:color/transparent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/qr_imagexml"
+        tools:layout_editor_absoluteY="181dp" />
+
+
+    <TextView
+        android:id="@+id/qrTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="QR 코드 인식"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/qrImageButton"
+        tools:layout_editor_absoluteX="136dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="412dp"
+        android:layout_height="292dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp"
+        android:background="@color/lightYellow" >
+
+        <ImageButton
+            android:id="@+id/mcImageButton"
+            android:layout_width="102dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            app:srcCompat="@drawable/mc_imagexml"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="65dp" />
+
+        <TextView
+            android:id="@+id/mcTextView"
+            android:layout_width="102dp"
+            android:layout_height="41dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="맥도날드"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/mcImageButton"
+            tools:layout_editor_absoluteX="48dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/plainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="키오스크에 부착된 QR로 주문해보세요"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/useTextView"
+        android:layout_width="419dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="사용처 분류"
+        android:textColor="#B8860B"
+        android:background="@color/gold"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="490dp" />
+>>>>>>> d15bd66e92069ab792adca2c7295ccc4e4ade3d0
 
 </androidx.constraintlayout.widget.ConstraintLayout>
